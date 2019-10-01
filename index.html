@@ -15,6 +15,22 @@
        padding: 20px;
        margin: 0;
     }
+    h2{
+      font-family: RoyalAcid;
+      font-size: 80px;
+      color: #ff6800;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+    }
+    h3{
+      font-family: RoyalAcidO;
+      font-size: 50px;
+      color: #1cc2a3;
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+    }
     body {
       font-size: 28px;
       background-color: #ffd759;
@@ -74,6 +90,32 @@
     .dropdown:hover .dropdown-content {
       display: block;
     }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .right {
+      height: 25%;
+      width: 25%;
+      position: absolute;
+      z-index: 1;
+      top: 60%;
+      overflow-x: hidden;
+      padding-top: 20px;
+      right: 0;
+    }
+    .left {
+      height: 25%;
+      width: 25%;
+      position: absolute;
+      z-index: 1;
+      top: 60%;
+      overflow-x: hidden;
+      padding-top: 20px;
+
+    }
   </style>
 </head>
 <body>
@@ -92,6 +134,14 @@
     </li>
   </ul>
 
-
+  <h2> Home </h2>
+  <img src="butterfly.JPG" alt="pretty background image here" height="25%" width="25%" class="center">
+  <h3> Want a resume? Click on a blue butterfly! </h3>
+  <a href="Fall_2019_Resume.pdf" download>
+    <img src="source.gif" alt="Resume" class="left" >
+  </a>
+  <a href="Fall_2019_Resume.pdf" download>
+    <img src="source.gif" alt="Resume" class="right" >
+  </a>
 </body>
 </html>
